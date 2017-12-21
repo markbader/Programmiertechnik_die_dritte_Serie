@@ -10,9 +10,9 @@ int main(int argc, char * argv[]){
 				printf("%d\n", i);
 			}
 		}
-		return 0;
 	}
 	else{
-		printf("Fataler Fehler: Es muss ein Parameter übergeben werden.\n");
+		printf("Fehler: Es muss ein Parameter übergeben werden.\n");
 	}
+	return 0;
 }
