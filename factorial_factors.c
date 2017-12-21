@@ -25,7 +25,7 @@ int ist_prim(unsigned long long n){
 }
 
 int factorial_factors(unsigned long long n){
-	unsigned long long int i;
+	unsigned long long i;
 	if (n <= 1){
 		return 0;
 	}
