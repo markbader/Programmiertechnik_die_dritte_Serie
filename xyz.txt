@@ -1,0 +1,22 @@
+Serie 3: Aufgabe 1
+
+Startsymbol X
+a b a
+a b a a b a
+a b a a b a a b a
+a b a a b a a b a a b a
+a b a a b a a b a a b a a b a
+
+Startsymbol Y
+c
+a c b
+b c a
+a b c a b
+b a c b a
+
+Startsymbol Z
+a b a c
+a b a a b a c
+a b a b c a
+a b a a c b
+c

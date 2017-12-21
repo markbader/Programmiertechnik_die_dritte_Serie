@@ -1,0 +1,97 @@
+Serie 3: Aufgabe 2
+
+Teil 1: (int) 3.141
+
+Ableitung:
+
+expression
+assignment-expression
+logical-OR-expression
+logical-AND-expression
+inclusive-OR-expression
+exclusive-OR-expression
+AND-expression
+equality-expression
+relational-expression
+shift-expression
+additive-expression
+multiplicative-expression
+cast-expression
+( type-name ) cast-expression
+( type-name ) unary-expression
+( type-name ) postfix-expression
+( type-name ) primary-expression
+( type-name ) constant
+
+Ergebnis:
+
+3
+
+
+Teil 2: e = 2.0 + .718
+
+Ableitung:
+
+expression
+assignment-expression
+unary-expression assignment-operator assignment-expression
+postfix-expression assignment-operator assignment-expression
+primary-expression assignment-operator assignment-expression
+identifier assignment-operator assignment-expression
+identifier = assignment-expression
+identifier = conditional-expression
+identifier = logical-OR-expression
+identifier = logical-AND-expression
+identifier = inclusive-OR-expression
+identifier = exclusive-OR-expression
+identifier = AND-expression
+identifier = equality-expression
+identifier = relational-expression
+identifier = shift-expression
+identifier = additive-expression
+identifier = additive-expression + multiplicative-expression
+identifier = multiplicative-expression + multiplicative-expression
+identifier = cast-expression + cast-expression
+identifier = unary-expression + unary-expression
+identifier = postfix-expression + postfix-expression
+identifier = primary-expression + primary-expression
+identifier = constant + constant
+
+Ergebnis:
+
+Wenn e vom Typ float ist: 2.718
+Wenn e vom Typ int ist: 2
+
+
+Teil 3: a = 0, a += e
+
+Ableitung:
+
+expression
+expression , assignment-expression
+assignment-expression , assignment-expression
+unary-expression assignment-operator assignment-expression , unary-expression assignment-operator assignment-expression
+unary-expression = assignment-expression , unary-expression += assignment-expression
+postfix-expression = assignment-expression , postfix-expression += assignment-expression
+primary-expression = assignment-expression , primary-expression += assignment-expression
+identifier = assignment-expression , identifier += assignment-expression
+identifier = conditional-expression , identifier += conditional-expression
+identifier = logical-OR-expression , identifier += logical-OR-expression
+identifier = logical-AND-expression , identifier += logical-AND-expression
+identifier = inclusive-OR-expression , identifier += inclusive-OR-expression
+identifier = exclusive-OR-expression , identifier += exclusive-OR-expression
+identifier = AND-expression , identifier += AND-expression
+identifier = equality-expression , identifier += equality-expression
+identifier = relational-expression , identifier += relational-expression
+identifier = shift-expression , identifier += shift-expression
+identifier = additive-expression , identifier += additive-expression
+identifier = multiplicative-expression , identifier += multiplicative-expression
+identifier = cast-expression , identifier += cast-expression
+identifier = unary-expression, identifier += unary-expression
+identifier = postfix-expression, identifier += postfix-expression
+identifier = primary-expression, identifier += primary-expression
+identifier = constant , identifier += identifier
+
+Ergebnis:
+
+2
